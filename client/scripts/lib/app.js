@@ -9,7 +9,8 @@ import Loader from 'angular-ecmascript/module-loader';
 import { Meteor } from 'meteor/meteor';
 
 // Modules
-import ChatsCtrl from '../controller/chats.controller';
+import ChatsCtrl from '../controllers/chats.controller';
+import ChatCtrl from '../controllers/chat.controller';
 import CalendarFilter from '../filters/calendar.filter';
 import RoutesConfig from '../routes';
 
@@ -23,6 +24,7 @@ Angular.module(App, [
 
 new Loader(App)
   .load(ChatsCtrl)
+  .load(ChatCtrl)
   .load(CalendarFilter)
   .load(RoutesConfig);
 
