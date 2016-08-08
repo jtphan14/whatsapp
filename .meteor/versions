@@ -1,5 +1,6 @@
 allow-deny@1.0.5
-angular-templates@1.0.2
+angular-templates@1.0.3
+angular-templates-runtime@0.0.1
 autopublish@1.0.7
 autoupdate@1.2.11
 babel-compiler@6.9.0
